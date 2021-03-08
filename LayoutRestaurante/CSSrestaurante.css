@@ -1,0 +1,113 @@
+.main-header{
+    background-image: url("imagens/fundo.jpg");
+    background-position: top right;
+    background-attachment: fixed;
+    height: 400px;
+
+}
+
+.main-header li{
+    display: inline-block;
+    list-style: none; /*tirar o ponto da lista*/
+    padding: 10px;
+    height: 20px;
+
+   
+}
+
+.main-header ul{
+    background-color: #49020294;
+    text-align: right;
+    
+   
+}
+
+.main-header a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 30px;
+    text-align: top right;
+}
+
+
+.main-header a:hover{
+    border-bottom: white solid;
+    background-color: black;
+    opacity: 0.4;
+    height: 100px;
+    width: 20px;
+}
+
+.main-header a:onclick{
+    border-bottom: white solid;
+}
+
+.icon{
+   margin-right: 950px;
+}
+
+.main-div{
+    text-align: center;
+}
+
+.text{
+    border-radius: 20px;
+    width: 500px;
+    height: 35px;
+    margin-left: 100px;
+}
+
+.button{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #850000d5;
+    margin-right:100px;
+    
+    
+}
+
+.main-div {
+    color: white;
+    font-size: 35px;
+    font-family: 'Bodoni MT';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 130px;
+}
+
+article{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.main-class{
+    display:inline-block;
+    width: 150px;
+   margin-left: 40px;
+    margin-right: 70px;
+    margin-top: 30px;
+    text-align: center;
+    transition: .3s linear;
+    
+}
+
+.imgs {
+    border-radius: 30px;
+    box-shadow: 0.8px  0.8px 0.8px 0.8px;
+    
+    
+}
+
+.main-class:hover, .main-header a:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
